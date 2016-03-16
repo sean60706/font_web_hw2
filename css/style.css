@@ -1,0 +1,59 @@
+* {
+	background-color:orange;
+	border:1px solid black;
+
+
+}
+
+
+article div{
+
+	/*background-color: white;*/
+	width: 300px;
+	height: 250px;
+	margin-right: 30px;
+	margin-top: 30px;
+	border:1px solid black;
+	
+
+}
+.main1{
+	float:left;
+	
+}
+.Services{
+
+}
+.main2{
+	
+}
+#Portfolio td{
+	width: 90px;
+	height: 50px;
+	padding-top:1px;
+	padding-left:0px; 
+
+	margin-left: 0px;
+	float:left;
+	border:1px solid black;
+}
+#Portfolio table{
+	border:1px solid black;
+
+}
+#Portfolio th{
+	float:left;
+	
+}
+#photo{
+	width: 960px;
+	height:500px;
+
+	margin-right: 30px;
+	margin-top: 30px;
+
+}
+.Services_img{
+
+
+}

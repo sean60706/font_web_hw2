@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/hw2style.css">
+
+	</head>
+	<body>
+		<!--
+			每一條設一個div，一條之下個個元件在設定一個div，每個div都有id，造型相似的div會有同樣的class
+		-->
+		<!--
+		top是最上面那一條，包刮logo和三個社群網站的分享btn
+		-->
+		<div id="top">
+
+			<div id="logo" class="top_layer">
+				<img src="img/logo.png"/>
+			</div>
+			<div id="share" class="top_layer">
+				<div id="facebook" class="share_btn">
+					<img src="img/btn_facebook.png">
+				</div>
+				<div id="twitter" class="share_btn">
+					<img src="img/btn_twitter.png">
+				</div>
+				<div id="google" class="share_btn">
+					<img src="img/btn_google_plus.png">
+				</div>
+			</div>
+		</div>
+		<!--
+		navbar是白色的功能條
+		-->
+		<div id="navbar">
+			<div 		class="bar"><p>Home</p></div>
+			<div  	class="bar"><p>About Us</p></div>
+			<div  	class="bar"><p>Services</p></div>
+			<div  class="bar"><p>Portfolio</p></div>
+			<div  	class="bar"><p>Contract</p></div>
+			
+		</div>
+		<!--
+		大尺吋相片
+		-->
+		<div id="big_photo">
+			<img src="img/bg_sliderbox.png">
+		</div>
+		<!--
+		Services、Portfolio、Testimonials
+		-->
+		<div id="mid_layer">
+			<div id="Services">
+				<table >
+					<th class="service_title" colspan="2">
+						<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						Services</p>
+
+					</th>
+					<tr >
+						<td class="service_pic_left" >
+							<img src="img/ic_services_webdesign.png">
+						</td>
+						<td class="service_article">Web Design</td>
+					</tr>
+					<tr>
+						<td class="service_pic_left">
+							<img src="img/ic_services_webdevelopment.png">
+						</td>
+						<td class="service_article">Web Development</td>
+					</tr>
+					<tr>
+						<td class="service_pic_left">
+							<img src="img/ic_services_bulksms.png">
+						</td>
+						<td class="service_article" >Bulk SMS</td>
+					</tr>
+				</table>
+			</div>
+
+
+
+<!--
+目前無法改變table中格子與格子之間的上下左右距離
+修改成功，要改變間距要從img下手才能動作
+-->
+			<div id="Portfolio">
+				<table >
+					<th colspan="3" id="port_title"> 
+						<p>Portfolio</p>
+					</th>
+					<tr>
+						<td  >
+							<img src="img/bg_portfolio_galleryboxes_1.png" class="port_pic_top">
+						</td>
+						<td >
+							<img src="img/bg_portfolio_galleryboxes_2.png" class="port_pic_top">
+						</td>
+						<td >
+							<img src="img/bg_portfolio_galleryboxes_3.png" class="port_pic_top_left">
+						</td>
+					</tr>
+					<tr>
+						<td >
+							<img src="img/bg_portfolio_galleryboxes_4.png" class="port_pic">
+						</td>
+						<td >
+							<img src="img/bg_portfolio_galleryboxes_5.png" class="port_pic">
+						</td>
+						<td >
+							<img src="img/bg_portfolio_galleryboxes_6.png" class="port_pic_left">
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="Testimonials">
+				<table>
+					<th class="Testimonials_title">
+						<p >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						Testimonials</p>
+					</th>
+					<tr>
+						<td>
+							<p id="Testimonials_article">
+								Front end development,also known as client side
+								development is the practice of porducing HTML,
+								CSS and JavaScript for a website or web
+								application so that a user can see and interact
+								with them directly.
+
+
+							</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div> <!--mid_layer -->
+	
+		<div id="Buttom_layer">
+			<div class="Our_Blog">
+				<div id="Our_Blog_title">
+					<br>
+					<a>Our Blog</a>
+				</div>
+				<div class="Our_Blog_article">
+
+					<img src="img/bg_ourblog_thumbnail.png">
+					<a class="Our_Blog_article_title">Beautiful Flower photography</a><br>
+					<a class="Our_Blog_article_article">Yogesh/Photography/24 Feb</a>
+				</div>
+				<div class="Our_Blog_article">
+					<img src="img/bg_ourblog_thumbnail.png">
+					<a class="Our_Blog_article_title">Beautiful Flower photography</a><br>
+					<a class="Our_Blog_article_article">Yogesh/Photography/24 Feb</a>
+				</div>
+				<div class="Our_Blog_article">
+					<img src="img/bg_ourblog_thumbnail.png">
+					<a class="Our_Blog_article_title">Beautiful Flower photography</a><br>
+					<a class="Our_Blog_article_article">Yogesh/Photography/24 Feb</a>
+				</div><!--Our_Blog_article  -->
+
+			</div>	
+
+			<div class="Latest_Tweets" >
+				<div id="Latest_Tweets_title">
+					<br>
+					<a>Latest Tweets</a>
+
+				</div>
+
+				<div id="Latest_Tweets_article">
+					<p >@wedsignpxiel <a href="">How are you mate?</a></p>
+					<p style="border-bottom: 1px #a54e03 solid;"></p>
+
+					<p><a href="">10 Beautiful IOS icons</a></p>
+					<p class="Latest_Tweets_article_link" >http://iconmonstr.com/collections/@uidesinger</p>
+					<p style="border-bottom: 1px #a54e03 solid;"></p>
+
+					<p >@acrisdesign <a href="">Thanks you follow Us!</a></p>
+					<p style="border-bottom: 1px #a54e03 solid;"></p>
+
+					<p><a href="">10 Beautiful IOS icons</a></p>
+					<p class="Latest_Tweets_article_link">http://iconmonstr.com/collections/@uidesinger</p>					
+				
+				</div>
+
+			</div><!-- Latest_Tweets -->
+
+		</div> <!-- Buttom_layer -->
+		
+
+
+
+	</body>
+	<footer>
+		<div class="footer">
+			<div id="footer_article">
+				<br>
+				<a id="footer_article_left">Copyright 2016 NTUT cise</a>
+				<a id="footer_article_right">Designed By font-end</a>
+			</div>
+		</div>
+
+
+	</footer>
+		
+
+</html>

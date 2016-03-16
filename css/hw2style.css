@@ -1,0 +1,317 @@
+body{
+	background-color: orange;
+	
+	margin-left: 150px;
+	margin-right: 150px;
+}
+div{
+	
+
+}
+#top{
+
+}
+#logo{
+	width:140px;
+	height: 57px;
+	margin-top: 30px;
+	margin-bottom: 18px;
+	margin-left: 25px;
+}
+#share{
+	margin-left: 491px;
+	margin-right: 284px;
+
+}
+.share_btn{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-top:30px;
+	margin-bottom:25px; 
+}
+.top_layer{
+	display: inline-block;
+}
+.bar{
+	
+
+	display: inline-block;
+	margin-right:15px; 
+	margin-left:15px; 
+}
+#Home{
+	margin-left:30px; 	
+}
+#navbar{
+	background-color: white;
+	width: 960px;
+	height: 50px;
+
+}
+#navbar p{
+	color: orange;
+	font-size: 14px;
+	font-weight: bold;
+	style
+}
+#big_photo{
+	margin-top: 19px;
+	margin-bottom: 20px;
+	width: 960px;
+	height: 500px;
+	background-color: white;
+}
+
+#mid_layer{
+	border:10px solid orange;
+}
+
+#mid_layer div{
+	float:left;
+
+}
+table{
+	
+
+}
+td{
+	
+
+}
+.service_pic_left{
+	float:right;
+
+}
+
+#Services{
+	width: 300px;
+
+
+}
+#Services td{
+
+	margin-left: 61px;
+
+}
+.service_title{
+	width:300px;
+	height:50px;
+	background-color: white;
+	text-align: left;
+	color:orange;
+	font-style: bold;
+
+}
+.service_article{
+	width:199px;
+	height: 30px;
+	background-color: white;
+
+}
+#Portfolio{
+	width: 300px;
+	margin-bottom: 66px;
+	margin-left:30px;
+	
+}
+
+#Portfolio th{
+	
+	height: 50px;
+
+	background-color: white;
+
+}
+#port_title{
+	color: #fe7701;
+	font-family: arial;
+}
+
+
+
+.port_pic{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.port_pic_left{
+	margin-top: 10px;
+	
+}
+.port_pic_top{
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.port_pic_top_left{
+	margin-top: 20px;
+	
+}
+#Testimonials{
+	width: 300px;
+	height: 206px;
+	margin-left: 30px;
+
+}
+#Testimonials_article{
+	background-color: white;
+	height: 136px;
+
+}
+.Testimonials_title{
+	background-color: white;
+	text-align: left;
+	color:orange;
+	font-size: 14px;
+	height: 50px;
+	font-family: arial;
+}
+
+
+
+#Buttom_layer div{
+	float: left;
+
+}
+#Buttom_layer{
+	border:solid orange 5px;
+}
+
+
+.Our_Blog{
+	width: 630px;
+	border:solid orange 5px;
+
+}
+.Our_Blog div{
+	
+	
+	width: 630px;
+	
+}
+#Our_Blog_title{
+	background-color: white;
+	height: 50px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color:#fe7701;
+	font-family: arial;
+}
+#Our_Blog_title a{
+	margin-left: 30px;
+}
+
+
+
+.Our_Blog_article{
+	
+
+	margin-top: 10px;
+	width: 630px;
+	background-color: white;	
+	height: 80px;
+	
+	
+
+
+
+}
+.Our_Blog_article_title{
+	padding-top: 14px;
+	font-size: 16px;
+	color: #404040;
+	font-family: Arial;
+}
+.Our_Blog_article_article{
+	margin-top: 8px;
+	font-size: 10px;
+	color: #a54e03;
+}
+.Our_Blog_article a{
+	margin-left: 10px;
+}
+.Our_Blog_article img{
+	float: left;
+
+}
+
+
+
+
+.Latest_Tweets div{
+	
+	margin-left: 30px;
+	width: 300px;
+
+}
+
+.Latest_Tweets{
+	border:solid orange 5px;
+	width: 300px;
+	
+	
+	float: left;
+	
+}
+#Latest_Tweets_title{
+	height: 50px;
+	background-color: white;
+	margin-bottom: 1px;
+	color:#fe7701;
+	font-family: arial;
+	
+}
+#Latest_Tweets_title a{
+	margin-left: 30px;
+}
+#Latest_Tweets_article{
+	margin-top: 20px;
+	height: 260px;
+	background-color: white;
+}
+#Latest_Tweets_article p{
+	margin-left: 15px;
+	
+	color: #a54E03;
+	font-family: arial;
+}
+#Latest_Tweets_article a{
+	text-decoration:none;
+	
+	color:#404040;
+
+}
+ .Latest_Tweets_article_link{
+ 	font-size: 8px;
+ 	color:#a54e03;
+ }
+
+
+
+
+
+.footer{
+	margin-left: -150px;
+	margin-right: -150px;
+
+	background-color: #404040;
+}
+
+.footer div{
+	margin-left: 150px;
+	margin-top: 650px;
+	
+	height: 50px;
+	font-size: 14px;
+	color:#fe7701;
+	font-family: Arial;
+	font-style: bold;
+}
+#footer_article_left{
+	
+	margin-right: 500px;
+}
+#footer_article_right{
+
+
+}
